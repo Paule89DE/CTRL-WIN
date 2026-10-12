@@ -1,0 +1,5 @@
+# Local work products; collection shortcuts and desktop.ini are intentionally tracked.
+*.tmp
+*.log
+*.bak
+release-output/

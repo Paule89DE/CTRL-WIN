@@ -1,0 +1,11 @@
+# Keep binary shortcuts, UTF-16 metadata, and Windows command launchers byte-exact.
+*.lnk -text
+*.ini -text
+*.reg -text
+*.png -text
+*.cmd -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.ps1 text eol=crlf
+*.md text eol=lf
+VERSION text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
