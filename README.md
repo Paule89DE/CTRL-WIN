@@ -1,5 +1,9 @@
 # CTRL-WIN
 
+Windows still hasn't managed to bring its configuration tools together in one consistent interface. Instead, settings are spread across Control Panel and its classic `.cpl` applets, Microsoft Management Console (MMC) snap-ins, and the Settings app. So I built CTRL-WIN: a shortcut collection that brings most of these scattered entry points into one place.
+
+The collection mainly consists of Windows `.lnk` shortcuts to system tools, shell locations, and Settings pages opened through `ms-settings:` URIs. It also includes links to the configuration and application-data folders scattered throughout Windows.
+
 **262 Windows shortcuts in 12 categories, with familiar English names and native Windows icons.**
 
 [![Version](https://img.shields.io/badge/version-0.1.0--alpha.1-orange)](https://github.com/Paule89DE/CTRL-WIN/releases/tag/v0.1.0-alpha.1)
